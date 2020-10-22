@@ -45,12 +45,10 @@ Si les données sont entre parenthèse vous pouvez simplement taper sur la touch
 - cliquer sur le lien http qui apparait avec un fond vert (ctrl+click)
 - Normalement sur la page que vous venez d'ouvrir apparait l'appli, pour la tester ajouter un nom d'argonaute, cliquer sur envoyer et celui-ci apparait dans la liste des membres de l'équipage
 
-Fabriqué avec
-  Symfony v 3.4
-  wampserver64
+# Utilisation :
+  - Symfony v 3.4
 
-
-Auteurs
+# Auteurs
 
 Elise Rousseau
 
