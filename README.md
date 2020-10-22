@@ -1,5 +1,5 @@
 
-# Titre du projet
+# Tech Challenge
 
 Tech Challenge ayant pour but d'être présenté à la Wild code school lors d'un entretien technique.
 Cette application est un système permettant de créer une liste de noms qui composeront une équipe.
