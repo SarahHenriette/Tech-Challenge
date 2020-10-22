@@ -43,7 +43,7 @@ Si les données sont entre parenthèse vous pouvez simplement taper sur la touch
 - Lancer votre serveur (pour ma part j'utilise wampserver64)
 - taper dans la console la commande "symfony server:start"
 - cliquer sur le lien http qui apparait avec un fond vert (ctrl+click)
--Normalement sur la page que vous venez d'ouvrir apparait l'appli, pour la tester ajouter un nom d'argonaute, cliquer sur envoyer et celui-ci apparait dans la liste des membres de l'équipage
+- Normalement sur la page que vous venez d'ouvrir apparait l'appli, pour la tester ajouter un nom d'argonaute, cliquer sur envoyer et celui-ci apparait dans la liste des membres de l'équipage
 
 Fabriqué avec
   Symfony v 3.4
