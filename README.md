@@ -1,36 +1,34 @@
 
-Titre du projet
+# Titre du projet
 
+Tech Challenge ayant pour but d'être présenté à la Wild code school lors d'un entretien technique.
 Cette application est un système permettant de créer une liste de noms qui composeront une équipe.
 
 
-Pour commencer
+# Pour commencer
 
 - Cloner le projet dans le dossier de votre choix avec la commande :
 git clone https://github.com/SarahHenriette/Tech-Challenge.git
 
--L'ouvrir dans l'IDE 
+- L'ouvrir dans l'IDE 
 
 
 
-Installation
+# Installation
 
--Dans la console faire la commande : composer install (pour installer les dependances)
+- Dans la console faire la commande : composer install (pour installer les dependances)
 Lors de l'installation, vous allee devoir remplir des données pour créer le fichier parameters.yml qui se trouve dans le dossier "config" dans "app" et qui va permettre la connexion a la bdd.
 Voici les données :
-Creating the "app/config/parameters.yml" file
-# This file is auto-generated during the composer install
-parameters:
-    database_host: 127.0.0.1
-    database_port: null
-    database_name: techchallenge_equipage
-    database_user: root
-    database_password: 
-    mailer_transport: smtp
-    mailer_host: 127.0.0.1
-    mailer_user: null
-    mailer_password: null
-    secret: ThisTokenIsNotSoSecretChangeIt
+    - database_host: 127.0.0.1
+    - database_port: null
+    - database_name: techchallenge_equipage
+    - database_user: root
+    - database_password: 
+    - mailer_transport: smtp
+    - mailer_host: 127.0.0.1
+    - mailer_user: null
+    - mailer_password: null
+    - secret: ThisTokenIsNotSoSecretChangeIt
   
 Si les données sont entre parenthèse vous pouvez simplement taper sur la touche "entré".
 
@@ -40,9 +38,7 @@ Si les données sont entre parenthèse vous pouvez simplement taper sur la touch
 - Dans la console taper la commande "php bin/console doctrine:schema:update --force" pour créer la table dans la bdd.
 
 
-Démarrage
-
-Pour lancer l'appli :
+# Pour lancer l'appli :
 
 - Lancer votre serveur (pour ma part j'utilise wampserver64)
 - taper dans la console la commande "symfony server:start"
